@@ -10,20 +10,7 @@ from os import path
 
 
 def main(args):
-#    my_file = input('Please enter the path to the text file: ')
-#   if os.path.exists(my_file):
-#        with open(my_file) as f:
-#            args = f.readlines()
-#            args = [x.strip() for x in args]
-#            for password in args:
-#                count = get_pwned_api_check(password)
-#                if count:
-#                    print(f'{password} was found {count} times and you should change your password')
-#                else:
-#                    print(f'{password} was NOT found. Safe for now!')
-#            return 'Completed!'
-#    else:
-#        return 'Path provided can not be located'
+
     while True:
             my_file = input('Please enter the path to the text file: ')
             if os.path.isfile(my_file):
