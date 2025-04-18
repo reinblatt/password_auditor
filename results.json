@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-04-17T23:15:22.626811",
+  "results": [
+    {
+      "password": "Thisisatestpassword",
+      "leak_count": 3,
+      "strength": "STRONG",
+      "error": null
+    },
+    {
+      "password": "Password123",
+      "leak_count": 599298,
+      "strength": "STRONG",
+      "error": null
+    },
+    {
+      "password": "Monday",
+      "leak_count": 8748,
+      "strength": "WEAK",
+      "error": null
+    },
+    {
+      "password": "P@$$W0RD!",
+      "leak_count": 80,
+      "strength": "STRONG",
+      "error": null
+    },
+    {
+      "password": "July123",
+      "leak_count": 677,
+      "strength": "MEDIUM",
+      "error": null
+    }
+  ]
+}
